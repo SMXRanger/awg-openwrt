@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.5"
+          - tag: "24.10.3"
             pkgarch: mips_24kc
             target: ath79
             subtarget: nand
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            vermagic: "02ce7a716cc203b932e1f74f0a770ad3"
 
     steps:
       - uses: actions/checkout@v4
